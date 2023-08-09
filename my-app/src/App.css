@@ -1,0 +1,574 @@
+.Home {
+  padding-left: 40px;
+  padding-top: 20px;
+  padding-right: 100px;
+  margin-left: 100px;
+  margin-top: 100px;
+  
+  display: flex;
+  width: 550px;
+  height: 180px;
+ 
+ 
+  font-weight: 500;
+  flex-flow: row;
+  justify-content: space-between;
+  transform: translateY(5%);
+  
+  border-radius: 20px;
+  background: #B2EDD3;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+.usertotals{
+line-height: 40px;
+padding-top: 10px;
+font-weight: 300;
+}
+
+.Button{
+ width: 250px;
+ height:50px;
+ font-size: 16px;
+ text-align: center;
+ font-weight: 400;
+ -webkit-text-fill-color:white;
+ border-radius: 10px;
+ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5);
+ border: none;
+ cursor: pointer;
+
+}
+
+.JoinGame{
+  padding-top: -20px;
+  margin-left: 20px;
+  width: 100px;
+  height:40px;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 400;
+  -webkit-text-fill-color:white;
+  border-radius: 8px;
+  background:rgba(3, 90, 78, 0.7843);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5);
+  border: none;
+  cursor: pointer;
+ 
+ }
+.Login{
+ 
+  
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  width:100vw;
+  height:100vh;
+  text-align: center;
+ 
+ 
+
+}
+
+.Loginuser{
+ 
+  
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin:0 auto;
+  width:100vw;
+  height:100vh;
+ 
+  text-align: center;
+ 
+ 
+
+}
+
+.LoginSession{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-evenly;
+
+  width: 600px;
+  height:300px;
+  background: #AFE7FF;
+  box-shadow: 0px 2px 2px 2px #446bd6 ;
+  border-radius: 20px;
+}
+
+
+
+
+.input-field{
+  width: 250px;
+  height:50px;
+  font-size: 16px;
+  
+  
+  border-radius: 10px;
+  background: #ffffff;
+  border-color: #1c147c;
+  border-width: 5%;
+
+  text-align: center;
+}
+.username
+{
+  display: flex;
+  flex-flow: column;
+  align-content: center;
+  height: 20%;
+ 
+}
+
+.input-field-user{
+  width: 120%;
+  height:40%;
+  font-size: 16px;
+  align-self: center;
+  max-height: 40%;
+  
+  border-radius: 10px;
+  background: #ffffff;
+  border-color: #1c147c;
+  border-width: 5%;
+
+  text-align: center;
+}
+
+.input-field-stock {
+  width: 90%;
+  height:40%;
+  font-size: 16px;
+  
+  
+  border-radius: 10px;
+  background: #ffffff;
+  border-color: black;
+  border-width: 5%;
+  text-align: center;
+}
+
+.UserForm{ 
+  display:flex;
+  flex-flow: column;
+  align-self: center;
+  margin-top: 8%;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 30%;
+  height: 70%;
+  background: #AFE7FF;
+  box-shadow: 0px 2px 2px 2px #446bd6 ;
+  border-radius: 10px;
+}
+
+.Amount
+{
+  display: flex;
+  flex-flow: column;
+  line-height: 30px;
+  max-width: 60%;
+
+}
+
+.container
+{
+  display: flex;
+  flex-flow: column;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  }
+  
+.nav
+{
+  margin-top: 2%;
+  justify-content: center;
+  display: flex;
+  flex-flow: row;
+
+ 
+}
+
+
+.round
+{
+width: 150px;
+height:50px;
+margin-left: 500px;
+background-color: #53DAA1;
+border-radius: 8px;
+text-align: center;
+
+
+}
+
+.subcontainer
+{
+  display: flex;
+  flex-flow: row;
+  height: 100%;
+  width: 95%;
+  justify-content: space-between;
+  margin-left: 3%;
+  overflow: hidden;
+
+  }
+
+.flex-right
+{
+
+  width: 35%;
+  height: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: column;
+  border-left: 5px;
+  border-right: 0px;
+  
+}
+
+
+.flex-left
+{
+  margin-left: 2%;
+  border-left: 5px;
+  width: 65%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.Userinfo
+{
+display: flex;
+width: 86%;
+height: 30%;
+flex-shrink: 0;
+padding:15px;
+margin-top: 2%;
+border-radius: 16px;
+background: #261BA9;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+.transactions
+{
+  width:50%;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+
+.dashboard
+{
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  width: 13%;
+}
+
+.sub-sub-market
+{
+  max-width: 3%;
+}
+
+.symbol
+{
+  align-self:center;
+  margin-top:4%;
+}
+
+.sub-market-column
+{
+
+ margin-right: 1%
+}
+
+
+.sub-market-2column
+{
+
+ margin-right: 48%
+}
+
+.sub-william-right
+{
+  display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;
+  margin-top: 1%;
+  width: 50%;
+ 
+}
+
+
+.quantity
+{
+ max-width: 5%;
+ align-items: center;
+}
+
+.sub-william-left
+{
+  width: 50%;
+  font-size: 108%;
+  -webkit-text-fill-color: #ffffff;
+}
+
+.balance
+{
+  padding-top: 8%;
+  text-align: center;
+  font-size: x-large;
+}
+
+
+
+.market{
+  display: flex;
+  background-image: none; 
+  
+  flex-shrink: 0;
+  background: linear-gradient(180deg, #8ED5F4 0%, #92DEFF 57.08%, rgb(217, 217, 217) 100%); 
+  box-shadow: 4px 6px 6px 4px rgba(0, 0, 0, 0.25);
+  line-height: 85px;
+  padding-top: 2%;
+  padding-left: 3%;
+  padding-bottom: 2%;
+  padding-right: 2%;
+  max-width: 90%;
+  margin-top: 3%;  
+  flex-wrap: wrap;
+  border-radius: 16px;
+ 
+  text-align: center;
+  max-height: 55vh;
+  width: 100%;
+
+
+  }
+
+  .sub-market
+  {
+
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;      
+    height: 20%;
+    border-bottom: 2px solid gray; /* add or remove this line to show or hide the horizontal line */
+
+  }
+
+  .sub-market-guide
+  {
+    margin-right: 40%;
+    display: flex;
+    flex-flow: row;
+    justify-content:space-between;
+    
+    width: 100%;      
+  }
+
+
+
+.market-button 
+{
+  width: 30%;
+  height: 90%;
+
+  
+  border: none;
+}
+
+.buy
+{
+ background-color: #A2D729;
+ cursor: pointer;
+  width: 80%;
+  height: 50%;
+  border-radius: 100px;
+  border: none;
+}
+
+.sell
+{
+  background-color: #A2D729;
+  cursor: pointer;
+  width: 80%;
+  height: 50%;
+  border-radius: 100px;
+  border: none;
+
+}
+.sell:hover
+{
+  background: whitesmoke;
+}
+
+.buy:hover
+{
+  background: whitesmoke;
+}
+
+.sub-sub-market input{
+  background-color: #ffffff;
+  border: none;
+}
+
+.sub-market form{
+  display: inline-flex;
+  justify-content: space-between;
+
+}
+
+.sub-market form input 
+{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+
+.user-investments
+{
+ 
+
+  margin-top: 9%;
+  display: flex;
+  flex-flow: column;
+
+  line-height: 40px;
+  width: 90%;
+  height: 50%;
+  flex-shrink: 0;
+  padding-top:3%;
+  overflow: hidden;
+  border-radius: 16px;
+  line-height: 280%;
+  background: linear-gradient(180deg, #a9f743 0%, rgb(57, 182, 62) 100%);
+  box-shadow: 0px 6px 6px 4px rgba(0, 0, 0, 0.25);
+    
+  }
+    
+  .investment
+  {
+   display:flex;
+   flex-flow: row;
+   justify-content: space-evenly;
+  
+  }
+
+
+.button
+{
+  border-radius: 7px; 
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  background-color: #20bd64;
+  width: 150px;
+  height: 50px;
+  margin-top: 5px;
+  margin-left: 5px;
+  border: none;
+  cursor: pointer;
+}
+.button2
+{
+  float: right;
+  border-radius: 7px; 
+  width: 50%;
+  height: 10%;
+  -webkit-text-fill-color: #ffffff;
+  text-align: center;
+  font-size: 100%;
+  background-color: #261BA9;
+  margin-top:15%;
+  margin-left: 20%;
+  border: none;
+  cursor: pointer;
+  align-content: center;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5);
+        
+}
+
+.button:hover
+{
+  background-color: rgb(193, 193, 255);
+
+}
+.button2:hover
+{
+  background-color: rgb(193, 193, 255);
+}
+
+
+.container1
+{
+  display: flex;
+  flex-flow: column;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  }
+
+.title
+  {
+    margin-top: 3%;
+    font-size: x-large;
+    align-self: center;
+  }
+    
+.Leaderboard
+{
+  display:flex;
+  flex-flow: column;
+  align-self: center;
+  line-height: 400%;
+  font-size: large;
+  width: 30%;
+  height: 65%;
+  background: white;
+  box-shadow: 0px 4px 4px 2px #446bd6 ;
+  border-radius: 10px;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 2%;
+}
+
+.returnlogin
+{
+  margin-top: 2%;
+  width:15%;
+  height:7%;
+  -webkit-text-fill-color: white;
+  font-size: medium;
+  align-self:center;
+  border-radius: 15px;
+  background-color: #0f54a3;
+  box-shadow: 0px 2px 2px 0px black ;
+  border: none;
+  cursor: pointer;
+}
+
+.returnlogin:hover
+{
+  background-color: #4b87cf;
+}
+
+.users{
+
+  display: inline-flex;
+  justify-content: space-between;
+  width:100%;
+  height: 10%;
+  border-bottom: 2px solid #171b9e;
+}
